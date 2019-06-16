@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.autoBot.testcases.TC002_CreateLead">
+        <methods>
+          <include name="stopReport"/>
+          <include name="beforeMethod"/>
+          <include name="report"/>
+          <include name="setUpClass"/>
+          <include name="loginAndLogout"/>
+          <include name="startReport"/>
+          <include name="setData"/>
+          <include name="tearDownClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.autoBot.testcases.TC002_CreateLead -->
+      <class name="com.autoBot.testcases.TC001_LoginAndLogout">
+        <methods>
+          <include name="stopReport"/>
+          <include name="beforeMethod"/>
+          <include name="report"/>
+          <include name="setUpClass"/>
+          <include name="loginAndLogout" invocation-numbers="0 1"/>
+          <include name="startReport"/>
+          <include name="setData"/>
+          <include name="tearDownClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.autoBot.testcases.TC001_LoginAndLogout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
